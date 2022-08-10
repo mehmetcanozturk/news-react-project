@@ -1,0 +1,12 @@
+$primary-color: #00c787;
+;
+$bg-color: #06070d;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: $primary-color;
+}
+
+body {
+    background-color: $bg-color;
+}
