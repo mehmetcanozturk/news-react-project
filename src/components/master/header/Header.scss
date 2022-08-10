@@ -1,0 +1,123 @@
+$primary-color: #00c787;
+$bg-color: #06070d;
+$text-color: #ecf0f1;
+
+.head {
+    cursor: pointer;
+
+    .logo {
+        justify-content: center;
+
+
+        img {
+            width: 450px;
+        }
+    }
+}
+
+header {
+    transition: 0.5s;
+
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    background-color: $text-color;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            margin-right: 30px;
+            transition: 0.7s;
+            font-weight: bold;
+            width: 100px;
+
+            a {
+                color: $bg-color;
+                transition: 0.7s;
+                display: block;
+                line-height: 50px;
+                text-align: center;
+            }
+
+            a:hover {
+                cursor: pointer;
+                font-weight: 900;
+                transition: 0.7s;
+                color: $primary-color;
+                background-color: #06070d;
+
+
+            }
+        }
+
+        .barIco {
+            display: none;
+            font-size: 25px;
+            background: none;
+            border: none;
+
+            i {
+                color: #06070d;
+            }
+        }
+
+        .logo {
+
+            img {
+                height: 25px;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .head {
+        display: none;
+    }
+
+    header {
+        width: 100% !important;
+
+        .flex {
+            display: none;
+        }
+
+        .barIco {
+            display: block !important;
+
+        }
+
+        .Navbar {
+            transition: 0.5s;
+            position: absolute;
+            display: block;
+            background-color: #00c787;
+            left: 0;
+            top: 30px;
+            color: #06070d;
+            width: 100%;
+            z-index: 5;
+
+            ul {
+                display: block;
+                width: 500px !important;
+                justify-content: center;
+                text-align: center;
+            }
+
+            li {
+                width: 100% !important;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+
+}

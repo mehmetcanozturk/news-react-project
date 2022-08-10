@@ -1,12 +1,61 @@
 $primary-color: #00c787;
-;
 $bg-color: #06070d;
+$text-color: #ecf0f1;
 
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: $primary-color;
+    color: $text-color;
 }
 
 body {
     background-color: $bg-color;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label,
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.flexSB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.paddingTB {
+    padding: 40px 0;
+}
+
+.paddingSM {
+    padding: 20px 0;
+
+}
+
+ul,
+li {
+    list-style-type: none;
 }
