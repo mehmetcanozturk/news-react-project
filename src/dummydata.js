@@ -446,6 +446,26 @@ export const tpost = [
     title: "Mount Etna erupts fashion in nice looking pictures",
     cover: "../images/tpost/tpost3.jpg",
   },
+  {
+    id: 4,
+    title: "Mount Etna erupts fashion in nice looking pictures",
+    cover: "../images/tpost/tpost3.jpg",
+  },
+  {
+    id: 5,
+    title: "Mount Etna erupts fashion in nice looking pictures",
+    cover: "../images/tpost/tpost3.jpg",
+  },
+  {
+    id: 6,
+    title: "Renewable energy dead as industry waits for Policy",
+    cover: "../images/tpost/tpost2.jpg",
+  },
+  {
+    id: 7,
+    title: "Renewable energy dead as industry waits for Policy",
+    cover: "../images/tpost/tpost2.jpg",
+  },
 ];
 export const gallery = [
   {

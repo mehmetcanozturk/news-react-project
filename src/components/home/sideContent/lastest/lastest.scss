@@ -1,0 +1,83 @@
+.lastest .box {
+    transition: 0.4s;
+    background-color: #06070d;
+    border-radius: 5px;
+    display: flex;
+    /* #18  copy*/
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+    position: relative;
+    margin: 0 0 10px 0;
+    /*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
+    border: 1px solid #0d0f1c;
+    cursor: pointer;
+    height: 113px;
+    width: 100%;
+}
+
+
+.lastest .images {
+    position: relative;
+    height: 113px;
+
+    overflow: hidden;
+}
+
+.lastest img {
+    width: 100%;
+    height: 113px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.lastest .text h1 {
+    font-size: 13px;
+    padding: 10px;
+    margin: auto;
+    color: #d7d7d7;
+}
+
+.lastest .date {
+    margin-top: 15px;
+    padding: 0 0 0 20px;
+}
+
+
+.lastest .box:hover {
+    transition: 0.4s;
+    border: 1px solid #181a31;
+
+    img {
+        transform: rotate(1deg) scale(1.1);
+        transition: .9s;
+
+        .category1 {
+            background-position: left bottom;
+        }
+    }
+
+    h1 {
+        color: #fff;
+    }
+
+    .comment i,
+    .date i {
+        color: #00ffae;
+
+    }
+
+    .comment label,
+    .date label {
+
+        color: #a8a8a8;
+    }
+
+    .category1 {
+        background-position: left bottom;
+
+    }
+
+    .category1 span {
+        color: #06070d;
+        transition: 0.5s;
+    }
+}

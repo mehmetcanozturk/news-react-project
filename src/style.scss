@@ -7,11 +7,12 @@ $text-color: #ecf0f1;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: $text-color;
 }
 
 body {
     background-color: $bg-color;
+    color: $text-color;
+
 }
 
 p,
@@ -58,4 +59,90 @@ a {
 ul,
 li {
     list-style-type: none;
+}
+
+.row {
+    width: 50%;
+}
+
+.images {
+    position: relative;
+}
+
+.category1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 5px solid #00c787;
+    width: auto;
+    display: block;
+    background: linear-gradient(to right, #00c787 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+
+    span {
+
+        text-transform: capitalize;
+        letter-spacing: 0;
+        padding: 5px 10px;
+        transition: 0.5s;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+}
+
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.comment i,
+.date i {
+    width: 30px;
+    color: #00c787;
+    font-size: 13px;
+}
+
+.comment label,
+.date label {
+    font-size: 13px;
+    color: #868585;
+}
+
+.desc {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 10px -10px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+
+
+}
+
+.slick-dots li button:before {
+    transition: .5s;
+    opacity: 0.75;
+    color: #006646 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    transition: .5s;
+    color: #00c787 !important;
 }
