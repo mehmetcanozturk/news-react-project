@@ -7,11 +7,11 @@ function Head() {
         <>
             <section className='head'>
                 <div className="container flexSB paddingTB">
-                    <div>text</div>
+                    <div></div>
                     <div className="logo">
                         <img src="../images/logo.png" alt="" />
                     </div>
-                    <div>text</div>
+                    <div></div>
                 </div>
             </section>
         </>
